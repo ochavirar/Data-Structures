@@ -1,7 +1,12 @@
 #include "dataTypes.h"
 #include <stdlib.h>
 #include <string.h>
-
+/**
+* Template to create primitives:
+* 1. Allocate the primitive in memory
+* 2. Give value to the pointer
+* 3. Return the pointer 
+**/
 TYPE charCreate(char data)
 {
     char *ptr = malloc(sizeof(char));
