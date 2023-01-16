@@ -26,4 +26,7 @@ boolean stackIsEmpty(STACK stack);
 TYPE stackPop(STACK);
 TYPE stackPeek(STACK);
 void stackPush(STACK, TYPE);
+void fixTopNode(STACK, STACK_NODE);
+void addNodeAndIncreaseSize(STACK, STACK_NODE, TYPE);
+void initializeStack(STACK);
 #endif
