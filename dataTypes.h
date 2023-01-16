@@ -16,6 +16,7 @@
 #ifndef DATA_TYPES_H_
 #define DATA_TYPES_H_
 
+typedef enum{FALSE=0, TRUE} boolean;
 //Pointer holder for every type
 typedef void *TYPE;
 
