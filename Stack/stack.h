@@ -29,4 +29,5 @@ void stackPush(STACK, TYPE);
 void fixTopNode(STACK, STACK_NODE);
 void addNodeAndIncreaseSize(STACK, STACK_NODE, TYPE);
 void initializeStack(STACK);
+void destroyStackValue(TYPE, STACK_NODE, STACK);
 #endif
